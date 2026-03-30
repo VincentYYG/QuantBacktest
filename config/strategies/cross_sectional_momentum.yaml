@@ -1,0 +1,4 @@
+#strategy_name: "cross_sectional_momentum"
+lookback: 126
+top_n: 3
+positive_momentum_only: true

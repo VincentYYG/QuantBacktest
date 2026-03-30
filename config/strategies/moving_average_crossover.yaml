@@ -1,0 +1,4 @@
+short_window: 50
+long_window: 200
+top_n: 3
+price_above_long_only: true

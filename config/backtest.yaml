@@ -1,0 +1,66 @@
+tickers:
+  - AAPL
+  - MSFT
+  - NVDA
+  - AVGO
+  - AMD
+  - CRM
+  - ORCL
+  - ADBE
+  - CSCO
+  - INTC
+  - GOOG
+  - META
+  - NFLX
+  - DIS
+  - TMUS
+  - AMZN
+  - TSLA
+  - HD
+  - MCD
+  - NKE
+  - PG
+  - KO
+  - PEP
+  - WMT
+  - COST
+  - JNJ
+  - LLY
+  - PFE
+  - MRK
+  - ABBV
+  - JPM
+  - BAC
+  - WFC
+  - GS
+  - MS
+  - CAT
+  - HON
+  - UPS
+  - UNP
+  - GE
+  - XOM
+  - CVX
+  - COP
+  - SLB
+  - EOG
+  - NEE
+  - DUK
+  - SO
+  - LIN
+  - APD
+  - SHW
+  - PLD
+  - AMT
+
+benchmark: SPY
+start_date: "2016-01-01"
+end_date: "2025-01-01"
+initial_capital: 100000.0
+rebalance_freq: "M"
+transaction_cost: 0.001
+min_history: 126
+data_path: "data/combined_close.csv"
+
+# List: cross_sectional_momentum, moving_average_crossover
+strategy_name: "cross_sectional_momentum"
